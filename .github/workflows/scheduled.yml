@@ -8,13 +8,13 @@ on:
     # ║  Format:  'MINUTE HOUR * * *'                                  ║
     # ║                                                                ║
     # ║  Examples:                                                     ║
-    # ║    '0 9 * * *'   = 9:00 AM UTC daily                          ║
+    # ║    '0 13 * * *'   = 9:00 AM UTC daily                          ║
     # ║    '30 14 * * *' = 2:30 PM UTC daily                          ║
     # ║    '0 0 * * *'   = Midnight UTC daily                         ║
     # ║                                                                ║
     # ║  Use https://time.is/UTC to find your local time in UTC       ║
     # ╚═══════════════════════════════════════════════════════════════╝
-    - cron: '0 9 * * *'
+    - cron: '0 13 * * *'
 
   # This adds a "Run workflow" button so you can test manually
   workflow_dispatch:
